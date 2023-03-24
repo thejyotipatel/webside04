@@ -1,0 +1,32 @@
+:root {
+  --bs-w-30: 30;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-container {
+  width: min(100%, 1400px);
+  margin-inline: auto;
+}
+.header-container {
+  background: #ffff url('./assets/image-header.jpg') center bottom no-repeat;
+  background-size: cover;
+  height: 400px;
+}
+.header-contant {
+  margin-top: 20%;
+}
+.home-container {
+  width: min(100%, 1000px);
+  margin-inline: auto;
+}
+
+@media screen and (max-width: 45em) {
+  .display-none {
+    display: none;
+  }
+}
